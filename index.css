@@ -1,16 +1,22 @@
 body {
-	background-color: #B2E9FD;
+	background-color: lightslategray;
 }
 
 .header h2 {
-	color: #DC4247;
+	color: white;
 }
 
 .header p {
-	color: #50524F;
+	color:whitesmoke;
 }
 
 .results {
 	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
+.movie-card {
+	margin-bottom: 20px;
+}
